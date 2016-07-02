@@ -1,0 +1,103 @@
+(/ 3 /2)
+(/ 3 2)
+(/ 3 /2)
+quo
+(quot 3 2)
+exit
+-1+ 3)
+(dec 5)
+(inc 5)
+exit
+(
+xit
+exit
+qut
+q
+quit
+)
+de
+(defn +
+[a b]
+(if (= 0 a)
+b
+(+ (dec a) (inc b))))
+(
+exit
+)
+exit
+(add 4 6)
+exit
+(id
+)
+(identity 4)
+(identity)
+(identity 'df')
+(identity "dsfa")
+(identity (+ 34 535))
+(identity '(+f g32423 greg))
+(iden
+)
+exit
+(* 604.45.)
+()
+(def x 604.4542)
+(* x x
+)
+(* x x)
+exit
+(cons 4 5)
+(cons "f" "df")
+(cons '5 '8)
+(cons "f" "df")
+(def t (cons "f" "df"))
+(car t)
+(cdr t)
+(class 1)
+(class '(3 4 5))
+(class (3 4 5))
+(class (cons 4 5))
+(class cons)
+(class conj)
+exit
+(gcd 9 6)
+(math/gcd 9 6)
+(require math)
+(:require [clojure.math.numeric-tower :as math])
+(require clojure.math.numeric-tower :as math)
+(require clojure.math.numeric-tower)
+(require '[clojure.math.numeric-tower :as math])
+(math/gcd 9 6)
+(math/gcd 9 10)
+(math/gcd 9 12)
+(math/gcd 9 14)
+(math/gcd 9 15)
+(math/gcd 9 18)
+(math/gcd 10 18)
+(math/gcd 18 9)
+exit
+(+ 56 6758 67 2543)
+(- 676 78_
+)
+(- 676 78)
+(- 676 756548)
+exit
+(require '[clojure.math.numeric-tower :as math])
+(math/gcd 10 18)
+(math/gcd 10 90)
+(math/gcd 10 93)
+(math/gcd 10 95)
+(dec 1)
+(rest "sdfds")
+(dec 1)
+(str (rest "dfsdfgh"))
+(str (
+exit
+)
+exit
+(cons 3 4)
+(cons 3)
+(cons 3 '(3 4 5))
+(pai 4 5)
+(pair 4 5)
+ls
+exit
