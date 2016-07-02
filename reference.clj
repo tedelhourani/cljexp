@@ -1,3 +1,6 @@
+;; ref: https://learnxinyminutes.com/docs/clojure/
+;;
+
 ; Comments start with semicolons.
 
 ; Clojure is written in "forms", which are just
