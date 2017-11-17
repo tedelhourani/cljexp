@@ -7,7 +7,7 @@
     (map (fn [args] (apply perms args))
          (map (partial
                (fn [prefix characters character]
-                 (list (str prefix character) (apply str (remove (fn [x] (= x character)) characters)) ))
+                 (list (str prefix character) (clojure.string/replace-first characters character "")))
                prefix characters)
               characters))))
 

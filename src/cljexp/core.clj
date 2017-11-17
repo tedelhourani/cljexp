@@ -10,4 +10,4 @@
   ;(println (fixed-point/simpler-sqrt 3653654364565376))
   ;(println (add/add 222877679898 6845))
   ;(println (pair/pair 4 6)))
-  (println (permutations/permutations "abcd")))
+  (println (permutations/permutations "aba")))
