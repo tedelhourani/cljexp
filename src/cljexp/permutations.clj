@@ -3,15 +3,11 @@
 (defn perms
   [prefix characters]
   (if (= (count characters) 1)
-    (str prefix (first characters))
-    (map (fn [args] (apply perms args))
-         (map (partial
-               (fn [prefix characters character]
-                 (list (str prefix character) (clojure.string/replace-first characters character "")))
-               prefix characters)
-              characters))))
+    (list (str prefix (first characters)))
+    (map perms
+         (map #(str prefix %1) characters)
+         (map #(clojure.string/replace-first characters %1 "") characters))))
 
-;; ugly get all permutations
 (defn permutations
   [characters]
   (flatten (perms "" characters)))
